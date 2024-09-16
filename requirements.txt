@@ -1,0 +1,4 @@
+oracledb
+nltk
+transformers
+openai  # Se você for usar API de PLN externa
