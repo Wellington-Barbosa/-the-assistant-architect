@@ -1,0 +1,29 @@
+# Ignorar o arquivo de configuração com informações sensíveis
+app/config.py
+
+# Ignorar o arquivo de NLP (se ele conter informações sensíveis)
+app/nlp.py
+
+# Ignorar pastas e arquivos específicos de sistema e ambiente virtual
+__pycache__/
+*.py[cod]
+*.log
+*.sqlite3
+*.db
+*.env
+
+# Ignorar arquivos do ambiente virtual Python (se estiver usando virtualenv)
+venv/
+ENV/
+env/
+
+# Ignorar configurações de IDEs (ex.: VSCode, PyCharm)
+.vscode/
+.idea/
+
+# Ignorar dependências do sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar dependências instaladas (caso não esteja usando um requirements.txt)
+*.egg-info/
